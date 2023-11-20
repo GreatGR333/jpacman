@@ -1,3 +1,4 @@
+/* 6388139 Raweebhas Paiboonwong */
 package nl.tudelft.jpacman.board;
 
 
@@ -24,7 +25,8 @@ public class Board {
     Board(Square[][] grid) {
         assert grid != null;
         this.board = grid;
-        assert invariant() : "Initial grid cannot contain null squares";
+        assert invariant() :
+            "Initial grid cannot contain null squares";
     }
 
     /**
